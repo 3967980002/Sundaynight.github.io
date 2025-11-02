@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 30px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #eee;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #eee;
+        }
+        .intro {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        .skills {
+            text-align: left;
+            margin-bottom: 16px;
+        }
+        .skills-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        .skill-tag {
+            display: inline-block;
+            background-color: #f0f7ff;
+            color: #2f54eb;
+            padding: 4px 12px;
+            border-radius: 16px;
+            margin: 0 8px 8px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- 头像展示 -->
+        <img src="Image_1762070509213.jpg" alt="个人头像" class="avatar">
+        <!-- 基本信息 -->
+        <h1 class="name">张明</h1>
+        <p class="title">前端开发工程师 | 热爱技术与设计</p>
+        <!-- 个人简介 -->
+        <div class="intro">
+            您好！我是一名拥有3年经验的前端开发工程师，专注于打造流畅、美观的用户界面。擅长运用HTML、CSS、JavaScript等技术实现各类交互效果，同时注重代码的可维护性与性能优化。工作之余喜欢研究新技术框架，也热衷于用画笔记录生活中的小美好。
+        </div>
+        <!-- 技能标签 -->
+        <div class="skills">
+            <h3 class="skills-title">核心技能</h3>
+            <div>
+                <span class="skill-tag">HTML5/CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Vue.js</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Tailwind CSS</span>
+                <span class="skill-tag">响应式设计</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
